@@ -1,31 +1,38 @@
 export default {
-  COLORS: {
-    BACKGROUND: '#F7F7F7',
+  colors: {
+    background: '#f7f7f7',
 
-    PRIMARY_900: '#B83341',
-    PRIMARY_800: '#E03F50',
-    PRIMARY_100: '#D16470',
-    PRIMARY_50: '#FFABB3',
+    primary_900: '#b83341',
+    primary_800: '#e03f50',
+    primary_100: '#d16470',
+    primary_50: '#ffabb3',
 
-    SECONDARY_900: '#572D31',
-    SECONDARY_500: '#7A6769',
-    SECONDARY_400: '#93797B',
+    secondary_900: '#572d31',
+    secondary_500: '#7a6769',
+    secondary_400: '#93797b',
 
-    SUCCESS_900: '#528F33',
-    SUCCESS_50: '#F7FFF9',
+    success_900: '#528f33',
+    success_50: '#f7fff9',
 
-    ALERT_900: '#B27F00',
-    ALERT_800: '#C5941A',
-    ALERT_50: '#F3EFE5',
+    alert_900: '#b27f00',
+    alert_800: '#c5941a',
+    alert_50: '#f3efe5',
 
-    SHAPE: '#DCDCDC',
-    TITLE: '#FFF',
+    shape: '#dcdcdc',
+    title: '#fff',
 
-    GRADIENT: ['#B83341', '#E03F50'],
+    gradient: ['#b83341', '#e03f50'],
   },
 
-  FONTS: {
-    TITLE: 'DMSerifDisplay_400Regular',
-    TEXT: 'DMSans_400Regular',
+  fonts: {
+    title: 'dmserifdisplay_400regular',
+    text: 'dmsans_400regular',
+    size: {
+      small: '14px',
+    }
   },
+
+  settings: {
+    border_radius: '12px'
+  }
 };
