@@ -2,7 +2,7 @@ import * as React from 'react';
 import * as Native from 'react-native';
 import * as Styles from './styles';
 
-import { Input } from '@common';
+import { Input, Button } from '@common';
 
 const Signin: React.FC = () => {
   return (
@@ -17,6 +17,11 @@ const Signin: React.FC = () => {
         placeholder='Senha'
         type='secondary'
         secureTextEntry
+      />
+      <Button
+        title='Entrar'
+        type='secondary'
+        isLoading={false}
       />
     </Styles.Container>
   );
