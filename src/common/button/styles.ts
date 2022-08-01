@@ -17,7 +17,7 @@ export const Container = styled(RectButton)<ContainerProps>`
 
   ${({ theme, type }) => css`
     border-radius: ${theme.settings.border_radius};
-    background-color: ${type === 'primary' ? theme.colors.primary_900 : theme.colors.primary_800};
+    background-color: ${type === 'primary' ? theme.colors.success_900 : theme.colors.primary_800};
   `};
 `;
 
