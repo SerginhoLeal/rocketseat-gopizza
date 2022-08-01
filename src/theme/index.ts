@@ -28,11 +28,12 @@ export default {
     title: 'dmserifdisplay_400regular',
     text: 'dmsans_400regular',
     size: {
+      title: '32px',
       small: '14px',
     }
   },
 
   settings: {
-    border_radius: '12px'
+    border_radius: '2px'
   }
 };
