@@ -8,6 +8,7 @@
       "@common": ["./src/common"],
       "@screens/*": ["./src/screens/*"],
       "@assets/*": ["./src/assets/*"],
+      "@context": ["./src/context"],
     }
   },
 }

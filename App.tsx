@@ -9,6 +9,8 @@ import { useFonts } from '@expo-google-fonts/comfortaa';
 import { ThemeProvider } from "styled-components/native";
 import theme from './src/theme';
 
+import { PizzaProvider } from './src/context';
+
 import Signin from './src/screens/signin';
 
 export default function App() {
@@ -26,7 +28,9 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <Native.StatusBar backgroundColor="transparent" translucent barStyle="light-content" />
-      <Signin />
+      <PizzaProvider>
+        <Signin />
+      </PizzaProvider>
     </ThemeProvider>
   );
 };

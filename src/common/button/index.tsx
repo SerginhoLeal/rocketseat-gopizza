@@ -8,16 +8,18 @@ type Props = RectButtonProps & {
   title: string;
   type?: Styles.TypeProps;
   isLoading?: boolean;
+  onPress: () => void;
 }
 
 export const Button: React.FC<Props> = ({ 
   title,
   type = 'primary',
   isLoading = false,
+  onPress,
   ...rest
 }: Props) => {
   return (
-    <Styles.Container type={type} enabled={!isLoading} {...rest}>
+    <Styles.Container type={type} disabled={isLoading} onPress={onPress}>
       {isLoading ? <Styles.Load /> : <Styles.Title>{title}</Styles.Title>}
     </Styles.Container>
   );

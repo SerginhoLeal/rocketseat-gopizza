@@ -13,6 +13,7 @@ module.exports = function(api) {
             '@common': './src/common',
             '@assets': './src/assets',
             '@screens': './src/screens',
+            '@context': './src/context',
           }
         }
       ]
